@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 :root{
     --fonte-padrao: 'Sriracha', cursive;
     --fonte-destaque: 'Passion One', cursive;
@@ -14,41 +19,40 @@
     padding: 0px;
 }
 
-#fundo-1{
+.fundo-1{
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right center;
 }
 
-#fundo-2{
+.fundo-2{
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right center;
 }
 
 header{
     background-color: black;
     text-align: center;
     color: white;
-    height: 190px;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 header > h1{
     font-family: var(--fonte-destaque);
-    font-size: 80px;
-    white-space: nowrap;
-    display: inline;
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: normal;
+    padding-bottom: 50px;
 }
 
 header a{
@@ -57,33 +61,37 @@ header a{
     font-weight: bold;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 #estrofe-1{
     background-color: white;
     padding-left: 30px;
     padding-top: 180px;
     padding-bottom: 180px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.39);
 }
 
 #texto-1{
     font-family: var(--fonte-padrao);
-    font-size: 2em;
-    padding-left:5px;
+    font-size: 3.5vw;
+    padding:5px;
 }
 
 #estrofe-2{
     padding-left: 30px;
     padding-top: 180px;
     padding-bottom: 180px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 #texto-2{
     background-color: rgba(0, 0, 0, 0.39);
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 2em;
-    width: 380px;
-    padding-left:5px;
+    font-size: 3.5vw;
+    display: inline-block;
+    padding:5px;
 }
 
 #estrofe-3{
@@ -91,28 +99,28 @@ header a{
     padding-left: 30px;
     padding-top: 180px;
     padding-bottom: 180px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.39);
 }
 
 #texto-3{
     font-family: var(--fonte-padrao);
-    font-size: 2em;
-    padding-left:5px;
+    font-size: 3.5vw;
+    padding:5px;
 }
 
 #estrofe-4{
     padding-left: 30px;
     padding-top: 180px;
     padding-bottom: 180px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 #texto-4{
     background-color: rgba(0, 0, 0, 0.39);
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 2em;
-    width: 385px;
-    padding-left:5px;
+    font-size: 3.5vw;
+    display: inline-block;
+    padding:5px;
 }
 
 #estrofe-5{
@@ -124,8 +132,8 @@ header a{
 
 #texto-5{
     font-family: var(--fonte-padrao);
-    font-size: 2em;
-    padding-left:5px;
+    font-size: 3.5vw;
+    padding:5px;
 }
 
 footer{
