@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(95,44,130);
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+img{
+    width: 280px;
+    height: 210px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 8px;
+}
+
+p{
+    font-size: 0.95em;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0px 10px;
+}
+
+#formulario{
+    background-color: #5f2c82;
+    display: flex;
+    margin-left: 10px;
+    width: 260px;
+    justify-content: center;
+    padding: 2px 0px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#icons{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+
+#iemail, #isenha{
+    background-color: #5ac2be;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 8px;
+    width: 81%;
+    display: inline;
+}
+
+#iemail:hover, #isenha:hover{
+    background-color: #54b1af;
+}
+
+#enviar{
+    background-color: #5ac2be;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 92%;
+    padding: 11px 0px;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+#enviar:hover{
+    background-color: #54b1af;
+}
+
+#esqueci-senha{
+    display: flex;
+    margin-left: 10px;
+    width: 91%;
+    justify-content: center;
+    padding: 11px 0px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #5ac2be;
+}
+
+a {
+    text-decoration: none;
+    color: #5ac2be;
+    display: flex;
+}
+
+#icon-email{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
